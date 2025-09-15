@@ -29,32 +29,7 @@ class DemoPage extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
-          children: [
-            M3EButton(
-              label: const Text('Filled'),
-              onPressed: () {},
-              icon: const Icon(Icons.bolt),
-              variant: ButtonVariant.filled,
-            ),
-            const SizedBox(height: 16),
-            M3EButton(
-              label: const Text('Tonal'),
-              onPressed: () {},
-              variant: ButtonVariant.tonal,
-            ),
-            const SizedBox(height: 16),
-            M3EButton(
-              label: const Text('Outlined'),
-              onPressed: () {},
-              variant: ButtonVariant.outlined,
-            ),
-            const SizedBox(height: 16),
-            M3EButton(
-              label: const Text('Text'),
-              onPressed: () {},
-              variant: ButtonVariant.text,
-            ),
-          ],
+          children: [RedText(text: 'qqqq')],
         ),
       ),
     );
